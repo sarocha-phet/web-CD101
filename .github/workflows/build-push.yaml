@@ -31,4 +31,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/knowledge:${{ github.run_number }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/phet:${{ github.run_number }}
